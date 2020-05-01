@@ -60,7 +60,6 @@ public class farmerportal extends Frame
 
 		fidTf = new TextField(15);
 		buidTf = new TextField(15);
-		//whenTf = new TextField(15);
 		rateTf = new TextField(15);		
 		
 		errorText = new TextArea(10, 40);
