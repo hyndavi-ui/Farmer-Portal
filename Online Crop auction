@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.sql.*;
 public class farmerportal extends Frame 
 {
-	Button buyc;
+	Button BuyC;
 	TextField fidTf, buidTf,rateTf;
 	TextArea errorText;
 	Connection connection;
@@ -16,7 +16,7 @@ public class farmerportal extends Frame
 		} 
 		catch (Exception e) 
 		{
-			System.out.println("Cannot find and load driver");
+			System.err.println("Cannot find and load driver");
 			System.exit(1);
 		}
 		connectToDB();
