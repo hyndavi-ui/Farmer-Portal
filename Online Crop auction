@@ -71,8 +71,6 @@ public class farmerportal extends Frame
 		first.add(fidTf);
 		first.add(new Label("Buyer ID:"));
 		first.add(buidTf);
-		//first.add(new Label("When:"));
-		//first.add(whenTf);
 		first.add(new Label("rate:"));
 		first.add(rateTf);
 		
