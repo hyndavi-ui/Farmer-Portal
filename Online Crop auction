@@ -49,7 +49,7 @@ public class farmerportal extends Frame
 				{			  
 				  String query= "INSERT INTO buy VALUES(" + fidTf.getText() + ", " + buidTf.getText() +","+rateTf+ ")";
 				  int i = statement.executeUpdate(query);
-				  errorText.append("\nInserted " + i+1 + " rows successfully");
+				  errorText.append("\nInserted " + i + " rows successfully");
 				} 
 				catch (SQLException insertException) 
 				{
